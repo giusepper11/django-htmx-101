@@ -12,7 +12,8 @@ migrate:
 
 # Run tests
 test:
-	pytest
+	pytest & \
+	pytest --cov --cov-report=html
 
 # format and lint
 lint:
